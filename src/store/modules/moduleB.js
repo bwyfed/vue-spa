@@ -16,7 +16,7 @@ const moduleB = {
     }
   },
   getters: {
-    getText (state) {
+    getBText (state) {
       return state.text + '!'
     }
   }
