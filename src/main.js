@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import store from './store/' // 在同级目录下，同时有store.js和store/目录，则要加上./store/
 
 console.log(JSON.stringify(process.env)) // {"NODE_ENV":"development","VUE_APP_TITLE":"开发环境","BASE_URL":"/"}
 Vue.config.productionTip = false
